@@ -1,0 +1,13 @@
+﻿Построение начато 29.12.2016 1:33:07.
+     1>Проект "D:\STPMS_oop\13laba\№13(EXE)\№13(EXE)\№13(EXE).vcxproj" в узле 2 (целевые объекты Build).
+       Файл проекта содержит ToolsVersion="12.0". Возможно, этот набор инструментов неизвестен или отсутствует (в этом случае проблему можно устранить, установив подходящую версию MSBuild), либо для данной сборки определено конкретное значение ToolsVersion в параметрах политики. Проект обрабатывается как имеющий ToolsVersion="4.0". Дополнительные сведения см. по ссылке http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\STPMS_oop\13laba\№13(EXE)\Debug\№13(EXE).exe" /INCREMENTAL /NOLOGO "D:\STPMS_oop\Lab13._DLL\Win32Project(DLL)\Debug\Win32Project(DLL).lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\STPMS_oop\13laba\№13(EXE)\Debug\№13(EXE).pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\STPMS_oop\13laba\№13(EXE)\Debug\№13(EXE).lib" /MACHINE:X86 "Debug\№13(EXE).obj"
+     1>╣13(EXE).obj : error LNK2019: ёё√ыър эр эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы _MyFunction@0 т ЇєэъЎшш "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)
+     1>╣13(EXE).obj : error LNK2019: ёё√ыър эр эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "public: static unsigned int __stdcall myDll::classFunction(void)" (?classFunction@myDll@@SGIXZ) т ЇєэъЎшш "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)
+     1>D:\STPMS_oop\13laba\╣13(EXE)\Debug\╣13(EXE).exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 2
+     1>Построение проекта "D:\STPMS_oop\13laba\№13(EXE)\№13(EXE)\№13(EXE).vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:02.62

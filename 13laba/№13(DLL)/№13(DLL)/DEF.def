@@ -1,0 +1,4 @@
+LIBRARY "¹13(DLL)"
+
+EXPORTS
+MyFunction

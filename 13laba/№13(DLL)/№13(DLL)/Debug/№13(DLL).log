@@ -1,0 +1,12 @@
+﻿Сборка начата 22.12.2016 17:21:54.
+     1>Проект "D:\ООП\3 семестр\№13(DLL)\№13(DLL)\№13(DLL).vcxproj" в узле 2 (целевые объекты Build).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ООП\3 семестр\№13(DLL)\Debug\№13(DLL).dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"DEF.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ООП\3 семестр\№13(DLL)\Debug\№13(DLL).pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ООП\3 семестр\№13(DLL)\Debug\№13(DLL).lib" /MACHINE:X86 /DLL Debug\myDLL.obj
+            ╤ючфрхЄё  сшсышюЄхър D:\╬╬╧\3 ёхьхёЄЁ\╣13(DLL)\Debug\╣13(DLL).lib ш юс·хъЄ D:\╬╬╧\3 ёхьхёЄЁ\╣13(DLL)\Debug\╣13(DLL).exp
+     1>LINK : warning LNK4232: шь  ╣13(DLL).dll ёюфхЁцшЄ эх ASCII ёшьтюы√, DLL эхы№ч  сєфхЄ чруЁєчшЄ№ т ёшёЄхьє ё ъюфютющ ёЄЁрэшЎхщ ANSI, юЄышўэющ юЄ 1251
+         №13(DLL).vcxproj -> D:\ООП\3 семестр\№13(DLL)\Debug\№13(DLL).dll
+     1>Сборка проекта "D:\ООП\3 семестр\№13(DLL)\№13(DLL)\№13(DLL).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.27

@@ -1,0 +1,27 @@
+﻿Построение начато 17.11.2016 20:08:45.
+     1>Проект "D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ConsoleApplication1.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ConsoleApplication1.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp List.cpp
+         ConsoleApplication1.cpp
+         List.cpp
+     1>List.cpp(163): warning C4018: <: несоответствие типов со знаком и без знака
+     1>List.cpp(185): warning C4018: <: несоответствие типов со знаком и без знака
+     1>List.cpp(196): warning C4018: <: несоответствие типов со знаком и без знака
+     1>List.cpp(209): warning C4018: <: несоответствие типов со знаком и без знака
+     1>List.cpp(224): warning C4018: <: несоответствие типов со знаком и без знака
+     1>List.cpp(238): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\Release\ConsoleApplication1.lib" /MACHINE:X86 /SAFESEH Release\ConsoleApplication1.obj
+         Release\List.obj
+         Release\stdafx.obj
+     1>ConsoleApplication1.obj : error LNK2001: неразрешенный внешний символ ""public: __thiscall List<int>::List<int>(void)" (??0?$List@H@@QAE@XZ)"
+     1>ConsoleApplication1.obj : error LNK2001: неразрешенный внешний символ ""public: void __thiscall List<int>::operator+(int)" (??H?$List@H@@QAEXH@Z)"
+     1>ConsoleApplication1.obj : error LNK2001: неразрешенный внешний символ ""public: void __thiscall List<int>::to_console(void)" (?to_console@?$List@H@@QAEXXZ)"
+     1>D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\Release\ConsoleApplication1.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
+     1>Построение проекта "D:\STPMS_oop\Lab7._Templates\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:04.48
